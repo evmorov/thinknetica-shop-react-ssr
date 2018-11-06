@@ -5,6 +5,7 @@ require('@babel/register');
 const render = require('./render').default;
 
 const app = express();
+app.use(express.static('public/images'));
 
 app.get('/', (req, res) => {
   const response = `
