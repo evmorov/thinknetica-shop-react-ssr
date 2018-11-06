@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "airbnb-base",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-plusplus": "off",
+    "comma-dangle": "off",
+    "func-names": "off",
+    "space-before-function-paren": ["error", "never"],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+    "react/prop-types": 0
+  }
+}
