@@ -1,0 +1,34 @@
+{
+  "name": "thinknetica-shop-react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evmorov/thinknetica-shop-react-ssr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evmorov/thinknetica-shop-react-ssr/issues"
+  },
+  "homepage": "https://github.com/evmorov/thinknetica-shop-react-ssr#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "express": "^4.16.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
